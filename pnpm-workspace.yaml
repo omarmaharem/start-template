@@ -1,0 +1,19 @@
+catalog:
+  "typescript": "^6.0.2"
+  "@types/node": "^22.10.2"
+  "vite": "^8.0.0"
+  "@vitejs/plugin-react": "^6.0.1"
+  "@tanstack/react-start": "^1.168.46"
+  "react": "^19.2.0"
+  "react-dom": "^19.2.0"
+  "@types/react": "^19.2.0"
+  "@types/react-dom": "^19.2.0"
+  "eslint": "^10.8.1"
+  "@eslint/js": "^10.0.1"
+  "globals": "^17.11.0"
+  "typescript-eslint": "^8.67.0"
+
+allowBuilds:
+  esbuild: true
+  lightningcss: true
+  unrs-resolver: true
