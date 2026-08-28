@@ -127,5 +127,9 @@
     "react/set-state-in-render": "error",
     "react/unsupported-syntax": "warn",
     "react/only-export-components": ["off"]
+  },
+  "options": {
+    "typeAware": true,
+    "typeCheck": true
   }
 }
