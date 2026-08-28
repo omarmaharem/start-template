@@ -8,10 +8,6 @@ catalog:
   "react-dom": "^19.2.8"
   "@types/react": "^19.2.18"
   "@types/react-dom": "^19.2.5"
-  "eslint": "^10.8.1"
-  "@eslint/js": "^10.0.1"
-  "globals": "^17.11.0"
-  "typescript-eslint": "^8.67.0"
 
 allowBuilds:
   esbuild: true
