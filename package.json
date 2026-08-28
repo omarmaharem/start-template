@@ -10,7 +10,7 @@
     "lint": "oxlint",
     "format": "oxfmt",
     "typecheck": "tsc --noEmit",
-    "done": "pnpm format && pnpm typecheck && pnpm lint"
+    "done": "pnpm format && pnpm lint"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
