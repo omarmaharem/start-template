@@ -1,12 +1,8 @@
-import type { Context } from "@/context";
 import { TanStackDevtools } from "@tanstack/react-devtools";
 import { ReactQueryDevtoolsPanel } from "@tanstack/react-query-devtools";
-import {
-  createRootRouteWithContext,
-  HeadContent,
-  Scripts,
-} from "@tanstack/react-router";
+import { createRootRouteWithContext, HeadContent, Scripts } from "@tanstack/react-router";
 import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools";
+import type { Context } from "@/context";
 import cssFile from "@/styles/styles.css?url";
 
 export const Route = createRootRouteWithContext<Context>()({

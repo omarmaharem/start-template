@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "oxlint",
-    "format": "prettier --write .",
+    "format": "oxfmt",
     "typecheck": "tsc --noEmit",
     "done": "pnpm format && pnpm typecheck && pnpm lint"
   },
@@ -27,7 +27,6 @@
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.7.1",
     "@rolldown/plugin-babel": "^0.2.3",
     "@tanstack/devtools-vite": "^0.8.3",
     "@tanstack/router-cli": "^1.132.0",
@@ -36,9 +35,8 @@
     "@types/react-dom": "catalog:",
     "@vitejs/plugin-react": "catalog:",
     "babel-plugin-react-compiler": "^1.0.0",
+    "oxfmt": "^0.65.0",
     "oxlint": "^1.80.0",
-    "prettier": "^3.8.1",
-    "prettier-plugin-tailwindcss": "^0.8.1",
     "typescript": "catalog:",
     "vite": "catalog:"
   }
