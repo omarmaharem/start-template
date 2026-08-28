@@ -126,21 +126,6 @@
     "react/purity": "error",
     "react/set-state-in-render": "error",
     "react/unsupported-syntax": "warn",
-    "react/only-export-components": [
-      "warn",
-      {
-        "allowConstantExport": true,
-        "allowExportNames": ["Route", "loader"]
-      }
-    ]
-  },
-  "overrides": [
-    {
-      "files": ["src/routes/**/*.{js, ts,tsx}"],
-      "rules": {
-        "react/only-export-components": "off"
-      },
-      "plugins": ["react"]
-    }
-  ]
+    "react/only-export-components": ["off"]
+  }
 }
