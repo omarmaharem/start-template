@@ -1,8 +1,9 @@
 {
   "name": "start-template",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
-  "version": "0.0.0",
+  "author": "Omar Maharem",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
