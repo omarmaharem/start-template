@@ -1,7 +1,6 @@
 // @ts-check
 import js from "@eslint/js";
 import prettier from "eslint-config-prettier";
-import prettierPlugin from "eslint-plugin-prettier/recommended";
 import reactPlugin from "eslint-plugin-react";
 import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
@@ -69,7 +68,7 @@ const reactConfig = [
 
   {
     name: "app/react-routes-override",
-    files: ["src/routes/**/*.{ts,tsx}"],
+    files: ["src/routes/**/*.{js, ts,tsx}"],
     rules: {
       "react-refresh/only-export-components": "off",
     },
@@ -83,7 +82,6 @@ const eslintConfig = defineConfig([
   tsconfig,
   reactConfig,
   prettier,
-  prettierPlugin,
   globalIgnores([
     "**/coverage/**",
     "**/dist/**",
